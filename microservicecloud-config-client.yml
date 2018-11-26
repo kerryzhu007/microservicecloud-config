@@ -7,12 +7,12 @@
 
 server: 
   port: 8201
-spring:
+spring: 
   profiles: dev
-  application:
+  application: 
     name: microservicecloud-config-client
 euraka: 
-  client:
+  client: 
     service-url: 
       defaultZone: http://euraka-dev.com:7001/euraka/
     
@@ -20,11 +20,11 @@ euraka:
 
 server: 
   port: 8202
-spring:
+spring: 
   profiles: test
-  application:
+  application: 
     name: microservicecloud-config-client
 euraka: 
-  client:
+  client: 
     service-url: 
       defaultZone: http://euraka-dev.com:7001/euraka/
